@@ -1,0 +1,192 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body, html {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(0, 0, 0)), url(img/direito\,jpeg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 25px;
+    padding: 30px;
+}
+
+#burguer {
+    background-color: rgb(68, 68, 68);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(59, 59, 59, 0.411);
+    color: white;
+    border-top: 2px solid rgb(197, 197, 197);
+    margin-bottom: 15px;
+}
+
+menu > ul > li > a:hover {
+    background-color: rgb(196, 196, 196);
+}
+
+.sobrenos{
+    margin-top: 25px;
+    font-size: 50px;
+    margin-bottom: 55px;
+}
+
+.h2serviços{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.paragrafosobrenos{
+    font-size: 2em;
+    padding: 55px;
+}
+
+
+main, .equipe, .contato {
+    width: 90vw;
+    background-color: rgba(56, 56, 56, 0.89);
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    padding-top: 25;
+    border-radius: 10px;
+    margin-bottom: 38px;
+}
+
+.maindois {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #8a070700;
+    
+}
+
+.maindois .dois {
+   
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius: 10px;
+    padding: 35px;
+    
+}
+
+.maindois .dois img {
+    
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.maindois .dois p {
+    flex: 1px;
+    font-size: 22px;
+    line-height: 1.5;
+    color: black;
+}
+
+.equipeh2{
+    margin-top: 45px;
+}
+
+.equipe {
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;/* Centraliza os membros da equipe horizontalmente */
+    flex-wrap: wrap;
+    margin-top: 40px; /* Adiciona um espaçamento acima da seção */
+    padding: 55px;
+    margin-bottom: 95px;
+}
+
+
+.equipe .membro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Deixa a largura em 100% para telas menores */
+    max-width: 400px; /* Define um tamanho máximo para as divs de membros */
+    background-color: rgba(177, 177, 177, 0.8);
+    padding: 20px;
+    margin: 10px; /* Adiciona margem ao redor de cada membro */
+    border-radius: 10px;
+    color: black;
+    text-align: center; /* Centraliza o texto dentro da div */
+    
+}
+
+.equipe .membro img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+.contato {
+    color: black;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+.contato p {
+    margin: 10px 0;
+}
+
+.CONTATOH2{
+    font-size: 50px;
+  
+}
+.contatoh2{
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
