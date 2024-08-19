@@ -109,6 +109,13 @@ main, .equipe, .contato {
     margin-left: calc((100vw - 90vw) / 2 - 35px);
     
 }
+.mainsobrenos{
+    margin-left: calc((100vw - 90vw) / 2 - 35px);
+
+
+}
+
+
 
 .maindois .dois img {
     
@@ -139,6 +146,8 @@ main, .equipe, .contato {
     margin-top: 40px; /* Adiciona um espaçamento acima da seção */
     padding: 55px;
     margin-bottom: 95px;
+    margin-left: calc((100vw - 90vw) / 2 - 35px);
+
 }
 
 
@@ -154,8 +163,13 @@ main, .equipe, .contato {
     border-radius: 10px;
     color: black;
     text-align: center; /* Centraliza o texto dentro da div */
+   
     
 }
+
+
+
+
 
 .equipe .membro img {
     width: 150px;
@@ -169,12 +183,14 @@ main, .equipe, .contato {
     color: black;
     text-align: center;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 100px;
+    border-radius: 10px;
+    margin-left: calc((100vw - 90vw) / 2 - 35px);
+    
     
 }
 
 .contato p {
-    margin: 10px 0;
+    margin: 10px ;
 }
 
 .CONTATOH2{
